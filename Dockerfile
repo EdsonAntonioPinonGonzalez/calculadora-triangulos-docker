@@ -6,4 +6,4 @@ WORKDIR /app
 
 RUN git clone https://github.com/EdsonAntonioPinonGonzalez/calculadora-triangulos-docker.git .
 
-CMD ["python", "calculadoraAreaTriangulo.py"]
+CMD ["python", "app.py"]
